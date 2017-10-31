@@ -17,9 +17,9 @@ We can get an idea of most popular stations:
 
 ![picture1](https://user-images.githubusercontent.com/21350380/32204532-2ff21156-bdc0-11e7-928c-944ed24ded7a.png)
 
-…we noted that the top 5 stations for departure and arrival are the same, but in the next 5 there is more variation. It makes sense that the bikes near Union Station (the city’s bus and train station) would be most popular, as people ride the bikes to or from their houses to this central travel hub. 
+…we noted that the **top 5 stations for departure and arrival are the same, but in the next 5 there is more variation**. It makes sense that the bikes near Union Station (the city’s bus and train station) would be most popular, as people ride the bikes to or from their houses to this central travel hub. 
 
-We can also see the clear influence of rush-hour on bike use:
+We can also see the clear **influence of rush-hour** on bike use:
 
 ![picture2](https://user-images.githubusercontent.com/21350380/32204536-34448aea-bdc0-11e7-9769-3778d848b190.png)
 
