@@ -48,6 +48,10 @@ As we continue to work on this, we will need to find ways to highlight certain p
 Going forward, we hope to work with geographical coding variables like ‘neighborhood’, but are unsure of the practicality of that, whether it would be better to code it in Excel, or to use the grouping function in Tableau. We also hope to look at trip length – this bikeshare company charges extra to users who keep bikes longer than 30 minutes, so why would a user keep a bike for more than 30 minutes? Our hypothesis is that this will be the result of long trips with few stations in between the departure and arrival points, such as from the suburbs to the city center, or vice versa. We also hope to work with the variable of member type, including comparing station use by ratio of member type, our hypothesis being that stations in more residential and business districts will be used by more registered members, while stations on the National Mall and near museums will be used by more unregistered members. 
 
 
+To make the path map clearer, we create a geo-filter dividing the paths into four group, NW(northwest), SW(southwest), NE(northeast), and SE(southeast) based on the stations’ latitudes and longitudes; for instance, if the station’s latitude and longitude, are larger than the medians of all stations’ latitudes and longitudes, respectively, the station is regarded as one locating in the NE. Then we obtain the following four sub-maps:
+
+![image](https://user-images.githubusercontent.com/21350380/33451692-cef6caaa-d5dd-11e7-91f6-7a31cb5f8423.png)
+
 
 
 
