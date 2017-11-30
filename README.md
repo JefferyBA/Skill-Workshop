@@ -50,7 +50,35 @@ Going forward, we hope to work with geographical coding variables like ‘neighb
 
 To make the path map clearer, we create a geo-filter dividing the paths into four group, NW(northwest), SW(southwest), NE(northeast), and SE(southeast) based on the stations’ latitudes and longitudes; for instance, if the station’s latitude and longitude, are larger than the medians of all stations’ latitudes and longitudes, respectively, the station is regarded as one locating in the NE. Then we obtain the following four sub-maps:
 
-![image](https://user-images.githubusercontent.com/21350380/33451692-cef6caaa-d5dd-11e7-91f6-7a31cb5f8423.png)
+![picture1](https://user-images.githubusercontent.com/21350380/33451864-5529dd24-d5de-11e7-8cdb-f47468509747.png)
+![picture2](https://user-images.githubusercontent.com/21350380/33451870-59d763aa-d5de-11e7-8e00-31aafaeace88.png)
+![picture3](https://user-images.githubusercontent.com/21350380/33451871-5ab34fa0-d5de-11e7-9a29-c632b2c431d8.png)
+![picture4](https://user-images.githubusercontent.com/21350380/33451873-5b90dbb8-d5de-11e7-90fd-7a7d2022ec71.png)
+
+Due to huge quantity of the data, even if we split the map into four, they are still too complicated to make some conclusions in details, although we can clearly see that the density of path in NW region is much less than that in other three regions, and the travel distances there are longer than those in other regions. 
+
+Next, we looked at some basic demographic data around bike use: 
+![picture5](https://user-images.githubusercontent.com/21350380/33451874-5d497abe-d5de-11e7-9455-33989f3f35bc.png)
+
+From the Bike Usage and the Age relationship we can see that most of the bikes are used in the younger age area. Bikes are primarily used in areas where the median age is between 0 and 37.7 years. 
+
+Next we looked at the average time residents have been residing there. 
+![picture6](https://user-images.githubusercontent.com/21350380/33451877-5e1dab68-d5de-11e7-9a59-2be20624659e.png)
+
+The bike usage and the length of the residence relationship indicates that shorter-time residents are more likely to use the bikeshare bikes. This makes sense, as long-time residents will be more likely to invest in buying a bike of their own, but a short-term resident will not want to go through the hassle of buying the bike and having to re-sell it after just a short time. There are more biker users in the light color area, where residents have lived on average 0 to 10.7 years.  
+
+Finally, we looked at membership type most commonly used at stations around the city. As hypothesized, the casual members were much more common at stations downtown and especially in the National Mall, a location that caters specifically to tourists and visitors, and has comparatively little to offer full-time residents. 
+![picture7](https://user-images.githubusercontent.com/21350380/33451878-5f740746-d5de-11e7-9966-0bf1ad06cc6d.png)
+![picture8](https://user-images.githubusercontent.com/21350380/33451884-61ceb540-d5de-11e7-913d-93be11c2941d.png)
+![picture9](https://user-images.githubusercontent.com/21350380/33451888-62c623f2-d5de-11e7-88ce-2a4f7b254de7.png)
+
+We create a new calculation ‘pair’ to represent the ride route. We can see that these routes with highest number of records are either mostly taken by casual or registered riders. Those routes mainly taken by casual riders represent some typical travel routes while those taken by registered riders represent some typical commuting routes. Then we separate the routes into two subgroups: one that have the same start station and end station and the other that have different start station and end station.
+
+![picture10](https://user-images.githubusercontent.com/21350380/33451890-63a5bf26-d5de-11e7-9320-a556271487a5.png)
+![picture11](https://user-images.githubusercontent.com/21350380/33451891-64ca1bb8-d5de-11e7-85c1-3e39fbd28ea6.png)
+![picture12](https://user-images.githubusercontent.com/21350380/33451892-659a0a4e-d5de-11e7-9e0b-078893448669.png)
+![picture13](https://user-images.githubusercontent.com/21350380/33451893-666d944a-d5de-11e7-8821-c10f1f69ecb7.png)
+
 
 
 
