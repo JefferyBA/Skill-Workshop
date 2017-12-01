@@ -2,11 +2,7 @@
 The Tableau Final deliverable work 
 
 
-link to site:https://jefferyba.github.io/Skill-Workshop/
-
-....
-https://public.tableau.com/profile/jordan.fischer4857#!/vizhome/DCBikeshareAnalysisBASkillsgroup8/BikeshareStory?publish=yes
-### Progress report 2 – Business Analytics Skills Workshop, Group 8
+## Business Analytics Skills Workshop, Group 8
 
 Jordan Fischer
 Austin Frazer
@@ -17,7 +13,8 @@ Junfei Zheng
 ##### As we work our way through the Tableau tutorials, we have some basic findings on the data…
 
 ##### We can get an idea of most popular stations: 
-
+### The finalized Tableau Story is online on our Tableau Public:
+https://public.tableau.com/profile/jordan.fischer4857#!/vizhome/DCBikeshareAnalysisBASkillsgroup8/BikeshareStory
 We can get an idea of most popular stations: 
 
 ![picture1](https://user-images.githubusercontent.com/21350380/32204532-2ff21156-bdc0-11e7-928c-944ed24ded7a.png)
