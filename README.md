@@ -1,6 +1,9 @@
 # Skill Workshop 
 The Tableau Final deliverable work 
 
+
+link to site:https://jefferyba.github.io/Skill-Workshop/
+https://public.tableau.com/profile/jordan.fischer4857#!/vizhome/DCBikeshareAnalysisBASkillsgroup8/BikeshareStory?publish=yes
 ### Progress report 2 – Business Analytics Skills Workshop, Group 8
 
 Jordan Fischer
